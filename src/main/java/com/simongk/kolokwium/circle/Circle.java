@@ -10,10 +10,6 @@ import java.util.List;
  */
 public class Circle {
 
-    private double radius;
-    private Point point;
-    private int howMany;
-
     public List<Point> getPointsOfCircle(int howMany, double radius, Point center){
         List<Point> circlePoints = new ArrayList<>();
         double slice = 2 * 3.14 / howMany;
@@ -26,6 +22,10 @@ public class Circle {
             circlePoints.add(p);
         }
         return circlePoints;
+    }
+
+    public void draw(int howManyPoints, double radius, Point center){
+        getPointsOfCircle(howManyPoints,radius,center).forEach(System.out::println);
     }
 
 
