@@ -22,15 +22,4 @@ public class Square{
         listOfPoints.forEach(System.out::println);
     }
 
-    public List<Point> changeToPolar(List<Point> list) {
-        List<Point> polarPoints = new ArrayList<>();
-        list.forEach( e -> {
-            double r = Math.sqrt(e.getX()*e.getX() + e.getY()*e.getY());
-            double theta= Math.atan2(e.getY(),e.getX());
-            Point newPoint = new Point(r,theta);
-            polarPoints.add(newPoint);
-        });
-
-        return polarPoints;
-    }
 }
