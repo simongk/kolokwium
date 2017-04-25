@@ -18,8 +18,4 @@ public class Square{
         return Arrays.asList(startingPoint,p1,p2,p3);
     }
 
-    public void draw(List<Point> listOfPoints){
-        listOfPoints.forEach(System.out::println);
-    }
-
 }

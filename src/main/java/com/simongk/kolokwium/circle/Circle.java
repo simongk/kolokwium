@@ -24,11 +24,4 @@ public class Circle {
         return circlePoints;
     }
 
-    public void draw(int howManyPoints, double radius, Point center){
-        getPointsOfCircle(howManyPoints,radius,center).forEach(System.out::println);
-    }
-
-
-
-
 }
