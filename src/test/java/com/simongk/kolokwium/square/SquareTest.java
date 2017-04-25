@@ -1,6 +1,7 @@
 package com.simongk.kolokwium.square;
 
 import com.simongk.kolokwium.point.Point;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -25,15 +26,17 @@ public class SquareTest {
         //given
         int length = 1;
         point = new Point(0,0);
+        List<Point> points = Arrays.asList(new Point(0, 0),
+                new Point(1, 0), new Point(1, 1), new Point(0, 1));
 
         //when
-        List<Point> listOfPoints = square.drawSquare(length, point);
+        List<Point> listOfPoints = square.getPointsOfSquare(length, point);
 
         //then
-        listOfPoints.forEach(System.out::println);
-        List<Point> points = Arrays.asList(new Point(0, 0), new Point(0, 1), new Point(1, 1), new Point(1, 0));
-        points.forEach(System.out::println);
+        listOfPoints.forEach(e -> System.out.println(e.toString()));
+        points.forEach(e -> System.out.println(e.toString()));
 
+        Assert.assertEquals(listOfPoints.get(1).toString(), points.get(1).toString());
     }
 
 

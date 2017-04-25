@@ -3,6 +3,7 @@ package com.simongk.kolokwium.square;
 import com.simongk.kolokwium.point.Point;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -10,11 +11,19 @@ import java.util.List;
  */
 public class Square{
 
-    private List<Point> listOfPoints = new ArrayList<>();
+    public List<Point> getPointsOfSquare(int length, Point startingPoint) {
+        Point p1 = new Point(startingPoint.getX()+length, startingPoint.getY());
+        Point p2 = new Point(startingPoint.getX()+length, startingPoint.getY()+length);
+        Point p3 = new Point(startingPoint.getX(), startingPoint.getY()+length);
+        return Arrays.asList(startingPoint,p1,p2,p3);
+    }
 
-    public List<Point> drawSquare(int length, Point startingPoint) {
+    public void draw(List<Point> listOfPoints){
+        listOfPoints.forEach(System.out::println);
+    }
 
-
-        return listOfPoints;
+    public static void main(String[] args) {
+        Square square = new Square();
+        square.draw(square.getPointsOfSquare(2,new Point(2,3)));
     }
 }
