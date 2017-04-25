@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d818968-8c58-427f-8ef3-e266718c6232" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/simongk/kolokwium/point/Point.java" afterPath="$PROJECT_DIR$/src/main/java/com/simongk/kolokwium/point/Point.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/simongk/kolokwium/square/SquareTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/simongk/kolokwium/square/Square.java" afterPath="$PROJECT_DIR$/src/main/java/com/simongk/kolokwium/square/Square.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/simongk/kolokwium/square/SquareTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/simongk/kolokwium/square/SquareTest.java" />
     </list>
@@ -41,8 +41,8 @@
       <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/simongk/kolokwium/square/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+            <state relative-caret-position="368">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#364#365#0" expanded="true" />
@@ -55,8 +55,8 @@
       <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/simongk/kolokwium/square/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="203">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#659#660#0" expanded="true" />
@@ -338,6 +338,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Squ&#9;FILE&#9;file://E:/Software/ZProjInfKolokwium/src/main/java/com/simongk/kolokwium/square/Square.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -351,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SquareTest.shouldDrawSquare">
+  <component name="RunManager" selected="JUnit.SquareTest.shouldChangeFromKarthesianToPolar">
     <configuration default="false" name="SquareTest.shouldDrawSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -396,6 +397,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ZProjInfKolokwium" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SquareTest.shouldChangeFromKarthesianToPolar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.simongk.kolokwium.square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ZProjInfKolokwium" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.simongk.kolokwium.square" />
+      <option name="MAIN_CLASS_NAME" value="com.simongk.kolokwium.square.SquareTest" />
+      <option name="METHOD_NAME" value="shouldChangeFromKarthesianToPolar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -653,14 +680,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SquareTest.shouldDrawSquare" />
       <item index="1" class="java.lang.String" itemvalue="Application.Square" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SquareTest.shouldChangeFromKarthesianToPolar" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SquareTest.shouldDrawSquare" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Square" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SquareTest.shouldChangeFromKarthesianToPolar" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SquareTest.shouldDrawSquare" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Square" />
       </list>
     </recent_temporary>
   </component>
@@ -674,7 +703,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493117363347</updated>
-      <workItem from="1493117365391" duration="2562000" />
+      <workItem from="1493117365391" duration="3008000" />
     </task>
     <servers />
   </component>
@@ -702,19 +731,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2562000" />
+    <option name="totallyTimeSpent" value="3008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="0" width="929" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33544305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33544305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41542003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -797,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/simongk/kolokwium/square/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="203">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
@@ -809,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/simongk/kolokwium/square/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="368">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />

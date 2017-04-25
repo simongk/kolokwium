@@ -21,9 +21,4 @@ public class Square{
     public void draw(List<Point> listOfPoints){
         listOfPoints.forEach(System.out::println);
     }
-
-    public static void main(String[] args) {
-        Square square = new Square();
-        square.draw(square.getPointsOfSquare(2,new Point(2,3)));
-    }
 }
