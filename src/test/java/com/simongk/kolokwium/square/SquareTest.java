@@ -45,11 +45,12 @@ public class SquareTest {
         List<Point> list = square.getPointsOfSquare(1,new Point(0,1));
 
         //when
-        int r = square.changeToPolar(list).get(1).getX();
-        int theta = square.changeToPolar(list).get(1).getY();
+        double r = square.changeToPolar(list).get(1).getX();
+        double theta = square.changeToPolar(list).get(1).getY();
         //then
-        Assert.assertEquals(r,1);
-        Assert.assertEquals(theta,0);
+
+        Assert.assertEquals((int) r ,1);
+        Assert.assertEquals((int) theta,0);
 
 
     }
