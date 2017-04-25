@@ -25,7 +25,7 @@ public class CircleTest {
         Point center = new Point(0,0);
 
         //when
-        List<Point> pointList = circle.getPointsOfCircle(8,10,center);
+        List<Point> pointList = circle.getPointsOfCircle(10,center);
 
         //then
         Assert.assertEquals(pointList.get(1).toString(),"Point: (7.0,7.0)");

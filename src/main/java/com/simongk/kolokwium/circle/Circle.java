@@ -10,10 +10,10 @@ import java.util.List;
  */
 public class Circle {
 
-    public List<Point> getPointsOfCircle(int howMany, double radius, Point center){
+    public List<Point> getPointsOfCircle(double radius, Point center){
         List<Point> circlePoints = new ArrayList<>();
-        double slice = 2 * 3.14 / howMany;
-        for (int i = 0; i < howMany; i++)
+        double slice = 2 * 3.14 / 8;
+        for (int i = 0; i < 8; i++)
         {
             double angle = slice * i;
             int newX = (int)(center.getX() + radius * Math.cos(angle));
