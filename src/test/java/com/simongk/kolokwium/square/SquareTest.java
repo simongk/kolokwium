@@ -42,21 +42,6 @@ public class SquareTest {
         Assert.assertEquals(listOfPoints.get(1).toString(), points.get(1).toString());
     }
 
-    @Test
-    public void shouldChangeFromKarthesianToPolar(){
-        //given
-        List<Point> list = square.getPointsOfSquare(1,new Point(0,1));
 
-        //when
-        double r = karthesianToPolar.changeToPolar(list).get(1).getX();
-        double theta = karthesianToPolar.changeToPolar(list).get(1).getY();
-        //then
-
-        Assert.assertEquals((int) r ,1);
-        Assert.assertEquals((int) theta,0);
-
-        karthesianToPolar.changeToPolar(list).forEach(System.out::println);
-
-    }
 
 }
